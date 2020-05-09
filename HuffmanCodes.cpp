@@ -105,7 +105,6 @@ void buildHuffmanTree(string text)
 		Node *left = pq.top(); pq.pop();
 		Node *right = pq.top();	pq.pop();
 
-		// Create a new internal node with these two nodes as children and with frequency equal to the sum of the two nodes' frequencies. Add the new node to the priority queue.
 		// Membuat simpul internal baru dengan dua node ini sebagai children dan dengan frekuensi yang sama dengan jumlah dari frekuensi dua simpul 
 		// Tambahkan simpul baru ke prioritas queue
 		int sum = left->freq + right->freq;
