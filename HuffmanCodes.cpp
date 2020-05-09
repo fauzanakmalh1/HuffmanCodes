@@ -98,7 +98,7 @@ void buildHuffmanTree(string text)
 		pq.push(getNode(pair.first, pair.second, nullptr, nullptr));
 	}
 
-	// looping sampai ada lebih dari satu simpul dalam queue
+	// Melooping sampai ada lebih dari satu simpul dalam queue
 	while (pq.size() != 1)
 	{
 		// Menghapus dua simpul dengan prioritas tertinggi (frekuensi terendah) dari queue
